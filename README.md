@@ -1,4 +1,4 @@
-# ModelMatch3D - A toolset for facilitating forensic individual identification based on mandibular or maxillary 3D models
+# Tutorial for ModelMatch3D
 
 `ModelMatch3D` provides fast alignment of mandibular or maxillary 3D models and calculates simple fitness metrics, allowing for quick database queries for forensic identification of post-mortem samples. Unlike other methods, it does not require the initial 3D models to be aligned or properly cleaned. It can also help identify partial samples (e.g. with missing parts). The module allows pairwise comparison of query and reference samples with visual feedback, as well as large database queries using one or multiple query samples. Keep in mind, however, that ModelMatch3D is meant as an aid to forensic identification, not as a replacement for a properly trained forensic scientist. Conclusions about forensic identification shold be performed by a professional.
 
