@@ -11,7 +11,7 @@ When invoked for the first time, `ModelMatch3D` will need your permission to dow
 Once everything is installed, you should observe the following screen:
 
 <p align="center">
-<img src="./images/ModelMatch3D001.png"> 
+<img src="./images/BiteID001.png"> 
 </p>
 
 
@@ -20,20 +20,20 @@ There are three main tabs in `ModelMatch3D` : a `Pair Matching`, a `Database pro
 * __Pair Matching tab__: this is the default tab when opening ModelMatch3D. It is used to perform pairwise comparisons of query and reference samples with quick visual feedback. It is most useful when needing to visually check for potential matches, as well as creating simple heatmaps for visualizing differences between query and reference models. It also displays color-coded indexes of intersample matching, indicating the degree to which ModelMatch3D considers query and reference samples as likely to be from the same individual : 1) likely (green), 2) uncertain (yellow), 3) unlikely (red).
 
 <p align="center">
-<img src="./images/ModelMatch3D004.png">
+<img src="./images/BiteID004.png">
 </p>
 
 
 * __Database processing__: this tab allows for quick database searches using one or multiple query models against a reference database. It is useful for querying large databases fast and efficiently. It displays promising pairwise matching sample IDs as rows in a table. It also indicates the extent to which the query has been completed using a simple progress bar.
 
 <p align="center">
-<img src="./images/ModelMatch3D002.png">
+<img src="./images/BiteID002.png">
 </p>
 
 * __Advanced Settings__: this tab allows users to change settings for ModelMatch3D. This is generally not recommended for novice users. Therefore, we can keep the default settings for this tutorial. For more details, please keep an eye on an upcoming publication.
 
 <p align="center">
-<img src="./images/ModelMatch3D003.png">
+<img src="./images/BiteID003.png">
 </p>
 
 
@@ -49,7 +49,7 @@ You can also use Slicer's default data loading procedure by clicking the `Data l
  * If everything worked properly, you should observe something similar to:
 
 <p align="center">
-<img src="./images/ModelMatch3D005.png">
+<img src="./images/BiteID005.png">
 </p>
 
 
@@ -76,7 +76,7 @@ Once query and reference models are selected, we can start the ModelMatch3D pipe
 This color scheme was defined based on large-scale comparisons of 3D models, but might not apply in all cases. So, they are not to be taken at face value. In particular, large remodeling during an individual's lifetime can lead to poor matching evaluation of samples belonging to the same individual.
 
 <p align="center">
-<img src="./images/ModelMatch3D007.png">
+<img src="./images/BiteID007.png">
 </p>
 
 
@@ -85,7 +85,7 @@ By default, after pressing the `Run` button, both the aligned reference and quer
 
 
 <p align="center">
-<img src="images/ModelMatch3D008.png">
+<img src="images/BiteID008.png">
 
 
  
@@ -93,7 +93,7 @@ By default, after pressing the `Run` button, both the aligned reference and quer
 
 
 <p align="center">
-<img src="images/ModelMatch3D009.png">
+<img src="images/BiteID009.png">
 
 
 
@@ -130,9 +130,9 @@ As mentioned in the prior section, the main purpose of the `Pair Matching` tab i
 
 ## Other Notes
 
-`ModelMatch3D` is generally robust to situations in which a substantial amount of the original sample is missing. As such, it can align partial post-mortem samples, as long as the remaining parts are sufficient for proper alignment. See below for an example:
+`BiteID` is generally robust to situations in which a substantial amount of the original sample is missing. As such, it can align partial post-mortem samples, as long as the remaining parts are sufficient for proper alignment. See below for an example:
 
 
 <p align="center">
- <img src="images/ModelMatch3D011.png">
+ <img src="images/BiteID011.png">
 </p>
